@@ -87,7 +87,7 @@ client.on("message", async (message) => {
         if (isNaN(args[0]) || parseInt(args[0]) <= 0) {
           return message
             .reply(
-              "Yeah.... That's not a numer? I also can't delete 0 messages by the way."
+              "Yeah.... That's not a number? I also can't delete 0 messages by the way."
             )
             .then((m) => m.delete(5000));
         }
